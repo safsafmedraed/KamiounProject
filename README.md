@@ -7,6 +7,8 @@ dev port  http://localhost:5000/. The app will automatically reload if you chang
 run the command cd clientside the npm install (install the dependecies). 
 Then Run npm start.Navigate to http://localhost:3000/ . The app will automatically reload if you change any of the source files.# KamiounProject
 # Run server side using docker 
+run the command docker build -t safsaf/node:latest .
 run the command docker run -p 5001:5000 safsaf/node
 # Run client side using docker 
-
+run the command docker build -t safsaf/front:latest .
+run the command docker run -p 3001:3000 safsaf/front
